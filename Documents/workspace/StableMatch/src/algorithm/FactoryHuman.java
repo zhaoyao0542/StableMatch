@@ -6,7 +6,7 @@ package algorithm;
 
 public class FactoryHuman {
     static int mannumber  = 0;
-    static int womannuber = 0;
+    static int womannumber = 0;
     public Human creatHuman(char gender)
     {
         switch (gender)
@@ -15,8 +15,8 @@ public class FactoryHuman {
                 mannumber++;
                 return new Human("m"+mannumber);
             case 'w':
-                womannuber++;
-                return new Human("w"+womannuber);
+                womannumber++;
+                return new Human("w"+womannumber);
             default:
                 break;
         }
